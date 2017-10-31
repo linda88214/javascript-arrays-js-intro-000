@@ -23,6 +23,6 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.pop([0])
+  array.pop()
   return array
 }
